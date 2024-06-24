@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ac from '../../assets/ac.png';
+import custom from '../../assets/custom.png';
 import kulkas from '../../assets/kulkas.png';
 import rumah from '../../assets/rumah.png';
 import '../Pop-up/Popup.css';
@@ -35,17 +35,17 @@ const Popup = () => {
       )}
 
       <button onClick={() => togglePopup('ac')} className="open-popup-btn1">
-        <img src={ac} alt="" className='service-img' />
-        <h1 className='omah'>AC</h1>
-        <p className='service-text'>Biarkan kami mengurus kebersihan lantai anda agar rumah anda selalu terasa segar dan bersih.</p>
+        <img src={custom} alt="" className='service-img' />
+        <h1 className='omah'>Perabotan</h1>
+        <p className='service-text'>Biarkan kami mengurus kebersihan perabotan anda agar perabotan anda selalu terasa segar dan bersih.</p>
       </button>
       {openPopups['ac'] && (
         <div className="popup-overlay">
           <div className="popup-content">
             <button onClick={() => togglePopup('ac')} className="close-popup-btn">&times;</button>
-            <img src={ac} alt="" className='popup-img' />
-            <h2>AC Cleaning</h2>
-            <p>AC cleaning adalah layanan untuk membersihkan dan merawat AC agar tetap bekerja optimal. Kami menggunakan alat dan cairan khusus untuk membersihkan bagian dalam dan luar AC. Estimasi pengerjaan adalah 45 menit per unit.</p>
+            <img src={custom} alt="" className='popup-img' />
+            <h2>Perabotan</h2>
+            <p>Perabotan cleaning adalah layanan untuk membersihkan dan merawat AC,Kulkas dll agar tetap bekerja optimal. Kami menggunakan alat dan cairan khusus untuk membersihkan bagian dalam dan luar. Estimasi pengerjaan adalah 45 menit per unit.</p>
             <button className='pesan-popup'>Pesan Sekarang</button>
           </div>
         </div>
@@ -53,16 +53,16 @@ const Popup = () => {
 
       <button onClick={() => togglePopup('kulkas')} className="open-popup-btn1">
         <img src={kulkas} alt="" className='service-img' />
-        <h1 className='omah'>Kulkas</h1>
-        <p className='service-text'>Layanan khusus untuk membersihkan kulkas agar makanan tetap segar dan sehat</p>
+        <h1 className='omah'>Custom</h1>
+        <p className='service-text'>Layanan khusus untuk memberikan pelayanan sesuai yang anda minta.</p>
       </button>
       {openPopups['kulkas'] && (
         <div className="popup-overlay">
           <div className="popup-content">
             <button onClick={() => togglePopup('kulkas')} className="close-popup-btn">&times;</button>
             <img src={kulkas} alt="" className='popup-img' />
-            <h2>Kulkas Cleaning</h2>
-            <p>Kulkas cleaning adalah layanan untuk membersihkan kulkas secara menyeluruh, termasuk bagian dalam dan luar, serta menghilangkan bau tidak sedap. Estimasi pengerjaan adalah 30 menit per unit.</p>
+            <h2>Custom Cleaning</h2>
+            <p>Merupakan fitur andalan kami, dengan begini anda dapat menentukan sendiri apa yang ingin dibersihkan, namun disarankan untuk memesan jasa ini untuk pembersihan skala besar seperti Garasi, Taman, dan lainnya.</p>
             <button className='pesan-popup'>Pesan Sekarang</button>
           </div>
         </div>
