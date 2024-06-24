@@ -1,0 +1,7 @@
+Import pesanan dan user_auth ke database mysql
+
+Cara menggunakan:
+1. Terminal vscode harus masuk ke backend dan ketik npm start untuk menghidupkan server
+2. Setelah itu Terminalvscode harus di posisi Massive dan ketik npm run dev untuk menjalankan webnya
+
+Done

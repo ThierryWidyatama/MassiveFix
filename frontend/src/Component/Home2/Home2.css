@@ -1,0 +1,209 @@
+#layanan {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    padding-top: -50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-position: center calc(50% - 1050px);
+  }
+  
+  .header-text1 {
+  background-image: url("../../assets/bg.png");
+  background-size: 100%;
+  background-position: 0 -80px;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 0; /* Remove margin to extend background to the top */
+  width: 100%; /* Extend the background to the full width */
+  }
+  
+  
+  .header-text1 h1{
+  font-size: 45px;
+  padding: 20px;
+  padding-bottom: 0px;
+  color: #163F5C;
+  margin-top: 150px;
+  }
+  
+  .header-text1 p{
+  padding: 10px;
+  color: #163F5C;
+  
+  }
+  
+  .header-text1 p1{
+  padding: 5px;
+  color: #163F5C
+  }
+  
+  .layanan-text h3, 
+  .layanan-text p {
+    text-align: center;
+    padding-top: 10px;
+    color: #4F94C5;
+  }
+  
+  .box-content {
+    padding-top: 150px;
+    display: flex;
+    gap: 30px;
+    color: #4F94C5;
+    background-color: white;
+  }
+  
+  .box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-top: 70px;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .half {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px #ccc;
+    border-radius: 60px;
+  }
+  
+  .box:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #4F94C5;
+  }
+  
+  /* --------------------------------------konten kanan kiri---------------------------------------- */
+  .allcontent3{
+  margin-top: -200px;
+  padding: 0px 150px;
+  }
+  .content3 {
+    display: flex;
+    padding: 0px 20px;
+    margin-top: -50px;
+  }
+  
+  
+  
+  .left-content1 {
+    flex: 1;
+    padding: 50px 20px;
+    margin-top: 30px;
+  }
+  
+  .left-content1 h2{
+    text-align: left;
+  }
+  
+  .right-content1 img{
+    width: 500px;
+    padding: 50px 20px;
+  }
+  
+  
+  
+  .left-content2 img {
+    flex: 1;
+    padding: 50px 20px;
+    width: 500px;
+  }
+  .right-content2 {
+    flex: 1;
+    padding: 50px 20px;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .right-content2 h2{
+    text-align: left;
+  }
+  
+  
+  
+  .left-content3 {
+    flex: 1;
+    padding: 50px 20px;
+    margin-top: 30px;
+  }
+  
+  .left-content3 h2{
+    text-align: left;
+  }
+  
+  .right-content3 img {
+    flex: 1;
+    padding: 50px 20px;
+    width: 500px;
+  }
+  
+  .reviews-button-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .reviews-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4F94C5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reviews-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* Popup CSS */
+  .popup-overlay3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  }
+  
+  .popup-content3 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%; /* Lebar popup */
+  max-width: 800px; /* Lebar maksimal popup */
+  max-height: 90%; /* Tinggi maksimal popup */
+  overflow-y: auto;
+  position: relative;
+  }
+  
+  .close-popup3 {
+  position: fixed;
+  top: 20px; /* Jarak dari atas layar */
+  right: 20px; /* Jarak dari kanan layar */
+  background: none;
+  border: none;
+  font-size: 30px; /* Besarkan ikon agar mudah diklik */
+  cursor: pointer;
+  color: white; /* Warna ikon putih agar terlihat di latar belakang hitam */
+  }
+  

@@ -1,0 +1,113 @@
+/* Login.css */
+
+.wikwok-login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.wikwok-horizontal-line {
+  width: 200px;
+  height: 1px; /* Adjust the thickness of the line */
+  background-color: #D0D0D0;
+}
+.wikwok-logo-login {
+  width: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.wikwok-login-image {
+  justify-content: center;
+  align-items: center;
+  transform-origin: 0 0;
+  /* flex: 1; */
+}
+.wikwok-login-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.wikwok-login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff; /* Optional: Change background color */
+  margin-bottom: 90px;
+}
+
+.wikwok-login-form h2 {
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-family: Montserrat;
+}
+
+.wikwok-form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.wikwok-form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.wikwok-form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.wikwok-forgot-pass {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+.wikwok-btn-login {
+  padding: 10px 80px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4F94C5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background-color: #0056b3;
+} */
+
+/* --------password------------ */
+.wikwok-password-input-container {
+  position: relative; /* Ensure relative positioning */
+  width: 100%;
+}
+
+.wikwok-password-input {
+  width: 100%;
+  padding: 10px;
+  padding-right: 40px; /* Space for the eye icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.wikwok-password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #aaa;
+}
+
+.wikwok-password-toggle-icon:hover {
+  color: #333;
+}

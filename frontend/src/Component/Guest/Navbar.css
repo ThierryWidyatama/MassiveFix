@@ -1,0 +1,75 @@
+#custom-header {
+    background-color: #fff; /* Adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional for some styling */
+}
+  
+.custom-container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.custom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1px 100px;
+    box-shadow: 0px 0px 4px grey;
+}
+  
+.custom-logo {
+    width: 100px;
+    height: auto; 
+    /* margin-left: 40px; */
+}
+  
+.custom-nav-list {
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+    padding: 0;
+    flex: 1;
+    justify-content: center;
+}
+  
+.custom-nav-item {
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: black;
+}
+  
+.custom-button-container {
+    display: flex;
+}
+  
+.custom-btn-login,
+.custom-btn-register {
+    margin-left: 10px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+  
+.custom-btn-login {
+    background-color: #ffffff;
+    color: black;
+    font-family: Montserrat;
+    border: 1px solid #4F94C5;
+    border-radius: 16px;
+}
+  
+.custom-btn-register {
+    background-color: #4F94C5;
+    color: #fff;
+    font-family: Montserrat;
+    border-radius: 16px;
+}

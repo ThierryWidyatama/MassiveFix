@@ -1,0 +1,114 @@
+/* CSS Anda yang telah diperbarui */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .footer-wrapper {
+    position: relative;
+  }
+  
+  section {
+    padding: 80px 13% 70px;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+    background-color: #163F5C;
+  }
+  
+  .allcontent {
+    display: flex;
+  }
+  
+  .footer-content {
+    padding-right: 50px;
+  }
+  
+  .footer img {
+    width: 160px;
+    margin-right: 300px;
+  }
+  
+  .icons {
+    margin-left: -10px;
+  }
+  
+  .icons i {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+  }
+  
+  .footer-content h4 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    position: relative; /* Memastikan elemen posisinya terkait dengan konten */
+}
+
+.footer-content h4::after {
+    content: ""; /* Menambahkan konten pseudo-element */
+    position: absolute; /* Mengatur posisi absolut terhadap elemen induk */
+    bottom: 0; /* Memposisikan di bagian bawah elemen induk */
+    left: 0; /* Memulai dari sisi kiri elemen induk */
+    width: 50%; /* Menyesuaikan panjang garis bawah */
+    border-bottom: solid 1px white; /* Menambahkan garis bawah */
+}
+  
+  .footer-content li {
+    margin-bottom: 16px;
+  }
+  
+  .footer-content li a {
+    display: block;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+  }
+  
+  .footer-content i {
+    padding: 0px 10px;
+  }
+  
+  .footer-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center; /* Memposisikan teks ke tengah secara vertikal */
+    margin-bottom: 20px;
+  }
+  
+  .footer-bottom p::before,
+  .footer-bottom p::after {
+    content: "";
+    flex: 1; /* Menempatkan garis sepanjang jarak yang tersedia */
+    border-top: 1px solid #a8c1ff26; /* Membuat garis */
+  }
+  
+  .footer-bottom p::before {
+    margin-right: 10px; /* Memberikan jarak antara garis dan teks */
+  }
+  
+  .footer-bottom p::after {
+    margin-left: 10px; /* Memberikan jarak antara teks dan garis */
+  }
+  
+  .footer-content li a:hover {
+    color: white;
+  }
+  

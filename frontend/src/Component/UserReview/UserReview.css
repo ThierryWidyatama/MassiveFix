@@ -1,0 +1,147 @@
+.repew{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #163F5C;
+  z-index: 1000;
+  border: 1px white ;
+}
+.repew .ndas{
+  margin-left: 30px;
+  color: white;
+}
+
+.title-profile .t1{
+font-size: 20px;
+margin-top: -40px;
+margin-left: -30px;
+}
+
+.title-profile h2{
+  margin-top: -20px;
+}
+
+.profil-review{
+  width: 50px;
+  margin-right: 30px;
+  border-radius: 50%; /* Membuat foto profil berbentuk bulat */
+  object-fit: cover; /* Memastikan gambar tetap dalam proporsi */
+}
+
+.icon-review{
+  font-family: Montserrat;
+  display: flex;
+  padding: 40px;
+}
+.icon-review img {
+  width: 100px; /* Atur ukuran gambar profil */
+  height: 100px; /* Atur ukuran gambar profil */
+  border-radius: 50%; /* Membuat foto profil berbentuk bulat */
+  object-fit: cover; /* Memastikan gambar tetap dalam proporsi */
+}
+.icon-review h2{
+  font-size: 30px;
+  font-weight: 700;
+  color: #163F5C;
+}
+.icon-review p{
+  font-size: 20px;
+}
+.title-profile{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.horizontal-line1 {
+  width: 1490px;
+  height: 1px; /* Adjust the thickness of the line */
+  background-color: #D0D0D0; /* Adjust the color of the line */
+  margin: 20px; /* Adjust the spacing around the line */
+}
+
+.title-body{
+  padding: 40px;
+  color: #163F5C;
+}
+
+.title-rating{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.rating{
+  padding: 40px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.title-deskirpsi{
+  padding: 40px;
+  color: #163F5C;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.text-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.centered-textarea {
+  width: 95%; /* Adjust the width of the textarea */
+  height: 250px; /* Adjust the height of the textarea */
+  padding: 10px; /* Padding inside the textarea */
+  font-size: 16px; /* Adjust the font size */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  resize: none; /* Prevents resizing */
+}
+
+/* ----------- rating dek --------------- */
+.rating-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.stars {
+display: flex;
+}
+
+.star {
+cursor: pointer;
+font-size: 24px;
+color: gray;
+margin-left: 5px;
+}
+
+.star.filled {
+color: gold;
+}
+
+.title-rating {
+flex: 1;
+text-align: left;
+}
+
+.rating-number {
+margin-left: 10px;
+}
+
+.btn-selesai{
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+  background-color: #4F94C5;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  padding: 15px 30px;
+  margin-bottom: 10px;
+}

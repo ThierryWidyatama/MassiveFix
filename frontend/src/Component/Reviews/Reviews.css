@@ -1,0 +1,84 @@
+.reviews-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 250px; /* Adjust the max height as needed */
+}
+
+.review-item {
+  display: flex;
+  align-items: center; /* Ensure all items are vertically aligned */
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.review-item:hover {
+  background-color: #f9f9f9;
+}
+
+.review-profile {
+  margin-right: 20px;
+  text-align: center;
+  flex: 0 0 100px; /* Fixed width for profile area */
+}
+
+.review-profile img.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.review-profile p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.review-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100px; /* Ensure minimum height to match profile picture */
+}
+
+.rating-display {
+  margin-bottom: 10px;
+}
+
+.rating-category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.category-title {
+  margin-right: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.category-stars .star {
+  color: #ddd;
+  margin-right: 2px;
+}
+
+.category-stars .star.filled {
+  color: #f5c518;
+}
+
+.description-display {
+  margin-top: 10px;
+  color: #666;
+}
