@@ -38,8 +38,8 @@ const Footer = () => {
             <h4>Contact</h4>
             <ul>
               <li><a href="/"><i class="fa-solid fa-phone"></i>081123456578</a></li>
-              <li><a href="/"><i class="fa-solid fa-envelope"></i>paini@gmail.com</a></li>
-              <li><a href="/"><i class="fa-solid fa-location-dot"></i>23posisi</a></li>
+              <li><a href="/"><i class="fa-solid fa-envelope"></i>homeker.com</a></li>
+              <li><a href="/"><i class="fa-solid fa-location-dot"></i>homecare.com</a></li>
             </ul>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Anime2 from '../../assets/anime2.jpg'
 import Anime3 from '../../assets/anime3.jpg'
 import Anime4 from '../../assets/anime4.jpg'
 import Anime5 from '../../assets/anime5.jpg'
+import Default from '../../assets/defaultpp.jpg'
 const Slide = () => {
   useEffect(() => {
     const carousel = document.querySelector(".carousel");
@@ -112,28 +113,28 @@ const Slide = () => {
       <i id='left' className='fa-solid fa-angle-left'></i>
       <ul className='carousel'>
         <li className='card'>
-          <div className='img'><img src={Anime} alt="img" draggable="false" /></div>
-          <h2>Hiu Sucipto</h2>
+          <div className='img'><img src={Default} alt="img" draggable="false" /></div>
+          <h2>Rafi Amir</h2>
           <div className='rating'>&#9733;&#9733;&#9733;&#9733;&#9734;</div>
         </li>
         <li className='card'>
-          <div className='img'><img src={Anime2} alt="img" draggable="false" /></div>
-          <h2>Bagas Dribble</h2>
+          <div className='img'><img src={Default} alt="img" draggable="false" /></div>
+          <h2>David Firmansyah</h2>
           <div className='rating'>&#9733;&#9733;&#9733;&#9733;&#9734;</div>
         </li>
         <li className='card'>
-          <div className='img'><img src={Anime3} alt="img" draggable="false" /></div>
-          <h2>DJ Rehan</h2>
+          <div className='img'><img src={Default} alt="img" draggable="false" /></div>
+          <h2>AMir Musthofa</h2>
           <div className='rating'>&#9733;&#9733;&#9733;&#9733;&#9734;</div>
         </li>
         <li className='card'>
-          <div className='img'><img src={Anime4} alt="img" draggable="false" /></div>
-          <h2>Skeleton</h2>
+          <div className='img'><img src={Default} alt="img" draggable="false" /></div>
+          <h2>Alif Haresta</h2>
           <div className='rating'>&#9733;&#9733;&#9733;&#9733;&#9734;</div>
         </li>
         <li className='card'>
-          <div className='img'><img src={Anime5} alt="img" draggable="false" /></div>
-          <h2>Hengker Pristel</h2>
+          <div className='img'><img src={Default} alt="img" draggable="false" /></div>
+          <h2>JHammes Hartono</h2>
           <div className='rating'>&#9733;&#9733;&#9733;&#9733;&#9734;</div>
         </li>
       </ul>
