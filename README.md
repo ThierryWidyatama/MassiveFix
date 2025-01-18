@@ -1,14 +1,14 @@
-$('#konsultasi').click(function() {
-        $('#main-content').html('<h3>Memuat data poli...</h3>'); // Menampilkan loading
+public function index() {
+    $id_pasien = $this->session->userdata('id_pasien');
+    $data['konsultasi'] = $this->Konsultasi_model->get_konsultasi_by_pasien($id_pasien);
+    $data['dokter'] = $this->Dokter_model->get_all_dokter();
 
-        $.ajax({
-            url: '<?= site_url("dashboard_pasien/load_kelola_poli"); ?>',
-            method: 'GET',
-            success: function(response) {
-                $('#main-content').html(response); // Ganti konten dengan data dari server
-            },
-            error: function() {
-                $('#main-content').html('<p>Error saat memuat data. Coba lagi.</p>');
-            }
-        });
-    });
+    // Cek apakah request berasal dari AJAX
+    if ($this->input->is_ajax_request()) {
+        $this->load->view('dashboard_pasien/konsultasi', $data);
+    } else {
+        $this->load->view('dashboard_pasien/header');
+        $this->load->view('dashboard_pasien/konsultasi', $data);
+        $this->load->view('dashboard_pasien/footer');
+    }
+}
